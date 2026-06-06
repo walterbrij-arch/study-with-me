@@ -1,0 +1,6 @@
+{
+  "name": "Study With Me",
+  "description": "بوابة تعليمية جزائرية تقدم الفروض، الامتحانات، والإعلانات لمختلف الأطوار الدراسية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
