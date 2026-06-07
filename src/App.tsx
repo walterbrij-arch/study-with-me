@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect, FormEvent } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { Analytics } from '@vercel/analytics/react';
 import { 
   BookOpen, 
   School, 
@@ -2660,6 +2661,7 @@ export default function App() {
         )}
       </AnimatePresence>
       <AIChatBot />
+      <Analytics />
     </main>
   );
 }
