@@ -43,6 +43,7 @@ import { getMockExamData } from "./utils/mockExamData";
 import AIChatBot from "./components/AIChatBot";
 import VirtualLab from "./components/VirtualLab";
 import { EmbeddedPDFViewer } from "./components/EmbeddedPDFViewer";
+import { Analytics } from '@vercel/analytics/react';
 
 // كلمة المرور المعتمدة للوحة التحكم
 const ADMIN_PASSWORD = "zabona";
@@ -2660,6 +2661,7 @@ export default function App() {
         )}
       </AnimatePresence>
       <AIChatBot />
+      <Analytics />
     </main>
   );
 }
